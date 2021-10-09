@@ -6,6 +6,7 @@ simple_icml_format = function() {
   output_format(
     knitr = knitr_options(opts_chunk = list(dev = 'png')),
     pandoc = pandoc_options(to = "icml"),
+    args = c(-s),
     clean_supporting = FALSE
   )
 }
