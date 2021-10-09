@@ -5,7 +5,6 @@
 simple_icml_format = function() {
 
   args <- c("--self-contained")
-  args <- c(args, "--number-sections")
 
   output_format(
     knitr = knitr_options(opts_chunk = list(dev = 'png')),
